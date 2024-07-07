@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const savedList = localStorage.getItem('shoppingList');
         if (savedList) {
             shoppingList = JSON.parse(savedList);
-            renderList();
+            listStatus();
         }
     };
 
