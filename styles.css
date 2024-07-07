@@ -1,0 +1,70 @@
+body {
+    background-color: rgba(234, 209, 180, 0.39);
+    align-items: center;
+    text-align: center;
+}
+
+#main-content{
+    background-color: rgb(162, 189, 189);
+    margin: 50px 400px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h1{
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+label{
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+#enter-item{
+    height: 30px;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 400px;
+    margin-right: 10px;
+}
+
+.btn, #clear-list-btn{
+    height: 35px;
+    width: 120px;
+    border-radius: 5px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.btn:hover, #clear-list-btn:hover{
+    background-color: rgb(70, 67, 67);
+    color: rgb(250, 249, 247);
+}
+
+#list-status{
+    margin: 60px 0px 30px 250px;
+    background-color: rgba(242, 238, 238, 0.969);
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+}
+
+h2{
+    font-size: 30px;
+    
+}
+
+.purchased{
+    text-decoration: line-through;
+    color: rgb(66, 57, 57);
+    cursor: pointer;
+    
+}
+
+li{
+    padding-bottom: 20px;
+    font-size: 20px;
+}
